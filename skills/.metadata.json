@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "entries": {
+    "skillshare": {
+      "source": "github.com/runkids/skillshare/skills/skillshare",
+      "type": "github-subdir",
+      "installed_at": "2026-11-09T09:47:22.2967744+01:00",
+      "repo_url": "https://github.com/runkids/skillshare.git",
+      "subdir": "skills/skillshare",
+      "version": "2bc791e",
+      "tree_hash": "a98661eb52e8a250469543782e72dd404e4b608b",
+      "commit": "2bc791ed1929dae348b1ae4900cb377fc0f9b85a",
+      "file_hashes": {
+        "SKILL.md": "sha256:030392bba48c41f35d2e4204e88b06f0fae9191e56016dd2117f7550f1471240",
+        "references/TROUBLESHOOTING.md": "sha256:7e877c80232eb8402ed4172f3d6c2cd2d0a3e9ec86a6095ed02fd8e84de2159d",
+        "references/audit-review.md": "sha256:3df0bfe47f28cd3317e4f7115745136baed75f577d231e76cea8019792799280",
+        "references/audit.md": "sha256:81a375800813ed99ca7da627347496c6aeb72f2135e8bb4eace0738410e194fd",
+        "references/backup.md": "sha256:05720550514d0633b7033c5fee27b5203901a2afdd584a5237410740f09cb2bf",
+        "references/extras.md": "sha256:b13b5818c792713e846c8a0f5f5e8161e78d14a0ed1a0c3625633860708bd1f7",
+        "references/hooks.md": "sha256:3d7cb61099359c40d8459f0184ab58c4039ddb535d52369374d9d9909d705a73",
+        "references/init.md": "sha256:5f3b49d247f71d378566bb22d0bed02aa3034baa7d1b4ce9e58d9b7b20414590",
+        "references/install.md": "sha256:2bea4e8a0f3c1fdae7394dde84bc692d6eb5333db135dd09ba21b0c62cdb122c",
+        "references/log.md": "sha256:00b27400550c1e3d905044ff3078cb6159897a87839a94875b361e1ae7820f56",
+        "references/mcp.md": "sha256:39a852e14cd93ccbe819cc2571aea9fb8fe09720c116cd4bec009f7de0985c5e",
+        "references/memory-review.md": "sha256:c323689d719356a80ea5d67cc6c67f3fc9fe9d262cd23f39c467d6dafb0c3452",
+        "references/native-agents.md": "sha256:0c835a9400b2731c903a2cb8c70e4ba18a32f02bcd254f5f7079ec732483e73f",
+        "references/plugins.md": "sha256:91a346fe0b09aba62f5c1384d1a13af82c97ef64c4a877c4bfdf8329a628b77f",
+        "references/status.md": "sha256:37e9f1e08224bdc384e381fe1a3e809d2734f3ac494bafdd5d326dfa58c56a70",
+        "references/sync.md": "sha256:8a4e4110979bf86e98b34eb8cad51543447ad87beb2d4a96d7d3c22f57f50321",
+        "references/targets.md": "sha256:ed05443b8cf1085037e8d3f7c01e4c7cf5b8236d9422c8aa01ccecbd5e91afbb",
+        "references/trash.md": "sha256:912aef9860223f4b7ab9bd265fdde32cd3b19e47fc49e80bf3967e95d80cbb16",
+        "scripts/run.sh": "sha256:ce5532a4ab4fc64f3fcc24a6af1775508020bcd0c5c1c3c20e023b65f5ce3131"
+      }
+    }
+  }
+}
