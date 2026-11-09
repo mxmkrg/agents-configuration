@@ -1,0 +1,1 @@
+var e=/\.(ts|tsx|js|jsx|mjs|go|py|rs|rb|sh|bash|zsh|ps1|json|ya?ml|toml)$/i;function t(e){let t=[],n=new Set;for(let r of e){let e=r.split(`/`);for(let r=0;r<e.length-1;r++){let i=e.slice(0,r+1).join(`/`);n.has(i)||(n.add(i),t.push({path:i,label:e[r],depth:r,folder:!0}))}t.push({path:r,label:e[e.length-1],depth:e.length-1,folder:!1})}return t}export{t as n,e as t};
