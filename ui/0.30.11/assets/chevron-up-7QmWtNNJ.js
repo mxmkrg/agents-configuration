@@ -1,0 +1,1 @@
+import{G as e}from"./PageHeader-B-v8_Biy.js";var t=e(`chevron-up`,[[`path`,{d:`m18 15-6-6-6 6`,key:`153udz`}]]);export{t};

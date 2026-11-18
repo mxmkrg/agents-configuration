@@ -1,0 +1,1 @@
+import{t as e}from"./vendor-react-CR5VJ85Q.js";var t=e();function n({size:e=20}){return(0,t.jsx)(`svg`,{className:`ss-draw`,width:e,height:e,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:2.6,strokeLinecap:`round`,strokeLinejoin:`round`,"aria-hidden":`true`,children:(0,t.jsx)(`path`,{d:`M4 12l5 5L20 6`})})}export{n as t};

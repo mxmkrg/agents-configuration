@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" data-theme="playful">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./app-icon.png" />
+    <link rel="shortcut icon" type="image/png" href="./app-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f6f3" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Skillshare" />
+    <title>Skillshare Web Dashboard</title>
+    <!-- Body text uses the system font. Kalam is only for Playful headings. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet" />
+    <script>
+      // FOUC prevention: handle Clean theme + dark mode before first paint
+      // Default is Playful (already set on <html>); only remove for explicit Clean
+      // URL ?theme= param overrides localStorage (values: dark, light, playful, clean).
+      // ?mode= (dark, light) and ?style= (playful, clean) name one axis each and win over it.
+      (function() {
+        var q = new URLSearchParams(location.search);
+        var get = function(key) { return (q.get(key) || '').toLowerCase(); };
+        [get('theme'), get('mode')].forEach(function(p) {
+          if (p === 'dark' || p === 'light') localStorage.setItem('skillshare-theme-preference', p);
+        });
+        [get('theme'), get('style')].forEach(function(p) {
+          if (p === 'playful' || p === 'clean') localStorage.setItem('skillshare-style', p);
+        });
+        var style = localStorage.getItem('skillshare-style');
+        var pref = localStorage.getItem('skillshare-theme-preference');
+        if (style === 'clean') {
+          document.documentElement.removeAttribute('data-theme');
+        }
+        var dark = pref === 'dark' || (pref === 'system' && matchMedia('(prefers-color-scheme: dark)').matches);
+        if (dark) document.documentElement.classList.add('dark');
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-LMDczMWE.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-hePW80VL.js">
+    <link rel="modulepreload" crossorigin href="./assets/vendor-react-CR5VJ85Q.js">
+    <link rel="modulepreload" crossorigin href="./assets/vendor-tanstack-query-B5YPc4r6.js">
+    <link rel="modulepreload" crossorigin href="./assets/PageHeader-B-v8_Biy.js">
+    <link rel="modulepreload" crossorigin href="./assets/circle-arrow-up-KAAFwvfB.js">
+    <link rel="modulepreload" crossorigin href="./assets/copy-Dp6wGbWv.js">
+    <link rel="modulepreload" crossorigin href="./assets/targetView-KdyOL2Jr.js">
+    <link rel="modulepreload" crossorigin href="./assets/browser-VrW0r688.js">
+    <link rel="modulepreload" crossorigin href="./assets/DialogShell-pTvzjK_X.js">
+    <link rel="modulepreload" crossorigin href="./assets/segSlide-_Nh8ZbBb.js">
+    <link rel="modulepreload" crossorigin href="./assets/queryEvents-CW6R1b12.js">
+    <link rel="modulepreload" crossorigin href="./assets/auditCache-Djgt0mJk.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-CpiltAbz.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

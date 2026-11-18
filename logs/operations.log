@@ -3,3 +3,5 @@
 {"ts":"2026-11-09T10:09:48+01:00","cmd":"push","args":{"dry_run":false,"message":"Updated operations.log","scope":"ui"},"status":"ok","ms":5049}
 {"ts":"2026-11-09T10:10:15+01:00","cmd":"hub-save","args":{"count":0},"status":"ok","ms":9}
 {"ts":"2026-11-09T10:13:00+01:00","cmd":"sync","args":{"dry_run":false,"force":false,"kind":"","scope":"ui","targets_failed":0,"targets_total":11},"status":"ok","ms":150}
+{"ts":"2026-11-09T10:13:37+01:00","cmd":"push","args":{"dry_run":false,"message":"Update skills","scope":"ui"},"status":"ok","ms":5094}
+{"ts":"2026-11-18T11:16:31+01:00","cmd":"upgrade","args":{"cli":true,"from_version":"0.30.0","skill":true,"to_version":"0.30.11"},"status":"ok","ms":6479}
